@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef _SHELL_
+#define _SHELL_
 
 #include <stdio.h>
 #include <unistd.h>
@@ -129,7 +129,7 @@ int repeated_char(char *input, int i);
 int error_sep_op(char *input, int i, char last);
 int first_char(char *input, int *i);
 void print_syntax_error(data_shell *datash, char *input, int i, int bool);
-int check_syntax_error(data_shell *datash, char *input);
+int cSHELLax_error(data_shell *datash, char *input);
 
 /* shell_loop.c */
 char *without_comment(char *in);
