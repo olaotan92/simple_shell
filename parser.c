@@ -78,7 +78,7 @@ char *find_path(info_t *info, char *pathstr, char *cmd)
 				return (path);
 			if (!pathstr[i])
 				break;
-					curr_pos = i;
+			curr_pos = i;
 		}
 		i++;
 	}
